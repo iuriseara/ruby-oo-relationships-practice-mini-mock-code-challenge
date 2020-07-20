@@ -1,6 +1,7 @@
 require 'pry'
 require_relative './book'
 require_relative './author'
+require_relative './publisher.rb'
 
 
 
@@ -12,5 +13,7 @@ book3 = Book.new("Bret Easton Ellis", "American Psycho", 399)
 author1 = Author.new("Philip K. Dick")
 author2 = Author.new("Chuck Palahniuk")
 author3 = Author.new("Bret Easton Ellis")
+
+publisher1 = Publisher.new("PublisherOne" , "Do Androids Dream of Electric Sheep?"  ,"Philip K. Dick" )
 
 binding.pry
